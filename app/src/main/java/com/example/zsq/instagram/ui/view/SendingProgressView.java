@@ -100,7 +100,7 @@ public class SendingProgressView extends View {
         progressPaint.setStrokeWidth(PROGRESS_STROKE_SIZE);
     }
 
-    private void setupSimulateProgressAnimator() {
+    public void setupSimulateProgressAnimator() {
         simulateProgressAnimator = ObjectAnimator.ofFloat(this, "currentProgress", 0, 100).setDuration(2000);
         simulateProgressAnimator.setInterpolator(new AccelerateInterpolator());
         simulateProgressAnimator.addListener(new AnimatorListenerAdapter() {

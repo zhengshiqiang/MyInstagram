@@ -39,4 +39,11 @@
         android:src="@drawable/ic_instagram_white"
         android:textSize="28sp" />
 
+    <com.example.zsq.instagram.ui.view.SendingProgressView
+        android:id="@+id/vSendingProgress"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_centerInParent="true"/>
+
 </RelativeLayout>
